@@ -19,6 +19,13 @@ Text Domain: dine-child
 }
 
 #tribe-events-content {
+  /* Add space around event details */
   max-width: 90vw;
   margin: 60px auto;
+}
+
+#thomasville-homepage-row .bg-thumb {
+  /* Make items in Thomasville row of homepage taller, to be similar in height to Power Mill height */
+  /* Be sure that thomasville-homepage-row id is added to row! */
+  padding: 20px 0;
 }
