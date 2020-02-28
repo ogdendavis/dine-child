@@ -17,3 +17,8 @@ Text Domain: dine-child
   padding-right: 0;
   float: unset;
 }
+
+#tribe-events-content {
+  max-width: 90vw;
+  margin: 60px auto;
+}
