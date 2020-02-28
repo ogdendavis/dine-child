@@ -10,3 +10,10 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dine-child
 */
+
+.has-sidebar.post-type-archive-tribe_events #primary {
+  /* Tribe adds has-sidebar class to month calendar view, so manually unset the damage that does when combining with another page! */
+  width: 100%;
+  padding-right: 0;
+  float: unset;
+}

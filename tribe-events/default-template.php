@@ -20,7 +20,7 @@ get_header();
 <!-- <main id="tribe-events-pg-template" class="tribe-events-pg-template"> -->
 <main>
 	<?php tribe_events_before_html(); ?>
-	<?php tribe_get_view(); ?>
+  <?php tribe_get_view(); ?>
 	<?php tribe_events_after_html(); ?>
 </main> <!-- #tribe-events-pg-template -->
 <?php

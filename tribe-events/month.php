@@ -79,9 +79,11 @@ $page_id = 936;
 <?php
 $events_content = apply_filters( 'the_content', get_post($page_id)->post_content );
 ?>
-<div class="entry-content events-content-container">
+<div id="page-wrapper" class="page-wrapper">
+<div class="container">
+  <div id="primary">
   <?php echo $events_content; ?>
-</div>
+
 
 
 
@@ -99,3 +101,9 @@ tribe_get_template_part( 'modules/bar' );
 tribe_get_template_part( 'month/content' );
 
 do_action( 'tribe_events_after_template' );
+
+?>
+  </div> <!-- #primary -->
+</div> <!-- .container -->
+</div> <!-- page-wrapper -->
+<?php
