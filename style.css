@@ -37,12 +37,20 @@ Text Domain: dine-child
   left: 0;
   right: 0;
   height: 4em;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   font-weight: 700;
   padding: 0.5rem 1rem;
   background: #8fa55c; /*Same as emphasis button color on /bikes*/
   z-index: 10000;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.dc-hello-bar__content {
+  max-width: 90vw;
 }
 
 .dc-hello-bar__close {
