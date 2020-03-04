@@ -31,9 +31,10 @@
 <?php wp_footer(); ?>
 <?php // Mailchimp pop-up sign-up form removed from here ?>
 <?php
-  if ($_SESSION['hello_bar'] == True) {
-    include 'dc_hello_bar.php';
+  // Call to dine-child-hello-bar plugin. Make sure plugin is installed before calling!
+  if ( function_exists('dc_include_hello_bar') ) {
+    dc_include_hello_bar();
   }
- ?>
+?>
 </body>
 </html>
