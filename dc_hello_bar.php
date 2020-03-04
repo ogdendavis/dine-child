@@ -8,6 +8,7 @@
 
 ?>
 
-<div class="dc_hello_bar">
+<div class="dc-hello-bar">
   TESTING
+  <a class="dc-hello-bar__close"></a>
 </div>
