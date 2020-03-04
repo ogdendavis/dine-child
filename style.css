@@ -29,3 +29,17 @@ Text Domain: dine-child
   /* Be sure that thomasville-homepage-row id is added to row! */
   padding: 20px 0;
 }
+
+.dc_hello_bar {
+  /* Styling for hello bar ad area */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  background: #8fa55c; /*Same as emphasis button color on /bikes*/
+  z-index: 10000;
+}
